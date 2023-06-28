@@ -1,13 +1,18 @@
 {
-  "name": "prisma-client-extension-starter",
-  "version": "0.0.0",
-  "author": "",
-  "description": "",
-  "keywords": ["prisma", "@prisma/client", "extension"],
+  "name": "prisma-extension-db-bulk",
+  "version": "0.0.1",
+  "author": "Chathula Sampath <schathula@gmail.com>",
+  "description": "Efficient Bulk Operations with Database",
+  "keywords": [
+    "prisma",
+    "@prisma/client",
+    "extension"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   },
   "peerDependencies": {
     "@prisma/client": "latest"
@@ -15,6 +20,6 @@
   "devDependencies": {
     "@prisma/client": "latest",
     "prisma": "latest",
-    "typescript": "4.9.4"
+    "typescript": "5.1.5"
   }
 }
